@@ -1,16 +1,36 @@
-# urlshortner
+# Url Shortner
 
-A new Flutter project.
+<img align="left"  height="250px" width="250px" alt="ToDo"  src="https://github.com/Dev-Adnani/Url-Shortner-App/blob/main/assets/icon/icon.png"/>
 
-## Getting Started
+##  App Features
 
-This project is a starting point for a Flutter application.
+- Simple and Classic UI/UX
+- Easy to use app.
+- Relax with a simple and short url.
 
-A few resources to get you started if this is your first Flutter project:
+##  Brief About App
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Simple and fast URL shortener!
+
+- URL-Shortner enables you to shorten long-url from important locations on Instagram, Facebook, YouTube, Twitter, Linked In, and the Internet. 
+- Just paste the long URL and click the shorten URL button. On the next screen, copy the shortened URL and submit it to the website. 
+- The shortened URL can be used for distribution, registration, notification, website, discussion, text and various fields.
+
+## Libraries
+
+- Main Library Used in App (UI)
+    - Provider
+    - http
+    - url_strategy
+    - fluttertoast
+  
+ ## Try This Shortner
+ - Note : This Is Not A Responsive Website 
+ - Trial Link : https://urlshortner.devadnani.com
+
+
+
+
+
+
