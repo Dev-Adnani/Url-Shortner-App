@@ -19,7 +19,7 @@ class CustomShortView extends StatelessWidget {
     final ShortnerCubit shortnerCubit =
         BlocProvider.of<ShortnerCubit>(context, listen: false);
 
-    _userLogin() {
+    shortIt() {
       if (_formKey.currentState!.validate()) {
         shortnerCubit.customUrl(
           destination: destinationController.text,
@@ -99,7 +99,7 @@ class CustomShortView extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   onPressed: () async {
-                    _userLogin();
+                    shortIt();
                   },
                   child: const Text(
                     'Short It',
