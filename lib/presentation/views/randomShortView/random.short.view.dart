@@ -15,8 +15,6 @@ class RandomShortView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final bool _validDestinationLink =
-        Uri.parse(destinationController.text).isAbsolute;
     final ShortnerCubit shortnerCubit =
         BlocProvider.of<ShortnerCubit>(context, listen: false);
 
@@ -64,9 +62,9 @@ class RandomShortView extends StatelessWidget {
                           child: CustomTextField.customTextField(
                             textEditingController: destinationController,
                             hintText: 'Enter Your Long Url Here',
-                            validator: (val) => _validDestinationLink
-                                ? null
-                                : 'Enter Your Long Url Here',
+                            validator: (val) => val!.isEmpty
+                                ? 'Enter Your Long Url Here'
+                                : null,
                           ),
                         ),
                         vSizedBox1,
