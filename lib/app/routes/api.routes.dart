@@ -1,3 +1,3 @@
 class ApiRoutes {
-  static const String baseurl = "https://shortxurl.herokuapp.com";
+  static const String baseurl = "http://api.devadnani.com";
 }
