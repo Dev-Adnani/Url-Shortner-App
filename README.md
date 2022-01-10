@@ -20,7 +20,7 @@
 ## Libraries
 
 - Main Library Used in App (UI)
-    - Provider
+    - Bloc
     - http
     - url_strategy
     - fluttertoast
